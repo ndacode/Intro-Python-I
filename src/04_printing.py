@@ -21,7 +21,7 @@ print("x is {0:2d}, y is {1:1.2f}, {2:s}".format(x,y,z))
 
 
 # this one below is extra
-print("x is {one}, y is {two}".format(two=y, one=x))
+print("x is {one}, y is {two * 1:1.2f}".format(two=y, one=x))
 
 
 # Finally, print the same thing using an f-string
